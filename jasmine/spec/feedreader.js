@@ -31,7 +31,7 @@ $(function() {
          * in the allFeeds object and ensures it has a URL defined
          * and that the URL is not empty.
          */
-         it('have URL that are not empty', function(){
+         it('have URLs that are not empty', function(){
             for(const feed of allFeeds){
                 expect(feed.url).toBeDefined();
                 expect(feed.url.length).not.toBe(0);
@@ -52,7 +52,22 @@ $(function() {
 
 
     /* TODO: Write a new test suite named "The menu" */
+    describe('The Menu', function(){
 
+        var menu=$('body');
+        var icon=$('.icon-menu-link');
+
+        it('is hidden', function(){
+            
+            expect(menu.hasClass("menu-hidden")).toBe(true);
+
+        })
+
+        it('toggles on click', function(){
+            
+            
+        })
+    })
         /* TODO: Write a test that ensures the menu element is
          * hidden by default. You'll have to analyze the HTML and
          * the CSS to determine how we're performing the
