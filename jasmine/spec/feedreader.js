@@ -10,8 +10,8 @@
  */
 $(function() {
     /* This is our first test suite - a test suite just contains
-    * a related set of tests. This suite is all about the RSS
-    * feeds definitions, the allFeeds variable in our application.
+    *  a related set of tests. This suite is all about the RSS
+    *  feeds definitions, the allFeeds variable in our application.
     */
     describe('RSS Feeds', function() {
         /* This is our first test - it tests to make sure that the
@@ -27,16 +27,27 @@ $(function() {
         });
 
 
-        /* TODO: Write a test that loops through each feed
+        /* A test that loops through each feed
          * in the allFeeds object and ensures it has a URL defined
          * and that the URL is not empty.
          */
+         it('have URL that are not empty', function(){
+            for(const feed of allFeeds){
+                expect(feed.url).toBeDefined();
+                expect(feed.url.length).not.toBe(0);
+            }
+         })
 
-
-        /* TODO: Write a test that loops through each feed
+        /* A test that loops through each feed
          * in the allFeeds object and ensures it has a name defined
          * and that the name is not empty.
          */
+         it('have names that are not empty', function(){
+            for(const feed of allFeeds){
+                expect(feed.name).toBeDefined();
+                expect(feed.name.length).not.toBe(0);
+            }
+         })
     });
 
 
