@@ -16,11 +16,12 @@ Whether working in an organization that uses test-driven development or in an or
 * Good tests give you the ability to quickly analyze whether new code breaks an existing feature within your codebase, without having to manually test all of the functionality.
 
 
-# Going about completing the project:
+## Going about completing the project:
 
 * The App should be studied in detail to be familiarised with the different functionalities that are implemented within it,
 * Suites and Specs are defined as described in [Project Rubric](https://review.udacity.com/#!/projects/3442558598/rubric).
 * The app should be run after each test is written in order to check if the test is working or not.
+* To see the working of the tests, clone or download [this repo](https://github.com/electro75/frontend-nanodegree-feedreader), and run the index.html file.
 
 
 
