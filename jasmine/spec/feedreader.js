@@ -82,7 +82,7 @@ $(function() {
          */
         beforeEach(function(done){ //since loadFeed() is asynchronous
             loadFeed(0,done);
-        })
+        });
 
         it('are not empty',function(done){
             expect($('.feed .entry').length).not.toBe(0);
@@ -113,6 +113,6 @@ $(function() {
         it('shows different feeds',function(done){
             expect(newFeed!=prevFeed).toBe(true); //checks for the two feeds to be different.
             done();
-        })
-    })
-}());
+        });
+    });
+});
