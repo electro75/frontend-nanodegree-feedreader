@@ -21,6 +21,6 @@ Whether working in an organization that uses test-driven development or in an or
 * The App should be studied in detail to be familiarised with the different functionalities that are implemented within it,
 * Suites and Specs are defined as described in [Project Rubric](https://review.udacity.com/#!/projects/3442558598/rubric).
 * The app should be run after each test is written in order to check if the test is working or not.
-* See the app live [here](https://electro75.github.io/frontend-nanodegree-feedreader/).
+
 
 
